@@ -1,2 +1,55 @@
-# Stop-Email-Disposable
-Api Filtre email jetable 
+﻿# Stop-Email-Disposable
+Voici une api qui vous permettra de filtrer les adresses jetables.
+# Comment appeler l'api
+Rendez-vous sur https://fslrprojet.ch/EmailDisposable/
+Tous les paramètres passe en **GET**. 
+# Paramètres 
+## List 
+Le paramètre **List** permet d'affichager la liste des domaines bloqués.
+ https://fslrprojet.ch/EmailDisposable/?List
+ 
+
+
+## NbEmail
+Le paramètre **NbEmail** retourne le nombre d'email listé. 
+  https://fslrprojet.ch/EmailDisposable/?NbEmail
+
+## Email
+Le paramètre **Email** retourne  si oui ou non (true/false) l'adresse est une adresse jetable.
+Voici deux exemples
+
+Adresse non jetable : 
+
+https://fslrprojet.ch/EmailDisposable/?Email=jean.paul@gmail.com
+
+    {    
+       EmailValide:  true     
+    }
+   
+Adresse jetable :  
+https://fslrprojet.ch/EmailDisposable/?Email=jean.paul@yopmail.com
+
+    {    
+       EmailValide:  false
+    }
+   
+
+## Domain
+Le paramètre **Domain** retourne si oui ou non (true/false) le domaine est un domaine jetable
+ 
+Voici deux exemples
+
+Adresse non jetable : 
+
+https://fslrprojet.ch/EmailDisposable/?Domain=gmail.com
+
+    {    
+       DomainValide:  true     
+    }
+   
+Adresse jetable :  
+https://fslrprojet.ch/EmailDisposable/?Domain=yopmail.com
+
+    {    
+       DomainValide:  false
+    }
