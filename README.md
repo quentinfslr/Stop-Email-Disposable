@@ -5,7 +5,7 @@ Rendez-vous sur https://fslrprojet.ch/EmailDisposable/
 Tous les paramètres passe en **GET**. 
 # Paramètres 
 ## List 
-Le paramètre **List** permet d'affichager la liste des domaines bloqués.
+Le paramètre **List** permet d'afficher la liste des domaines bloqués.
  https://fslrprojet.ch/EmailDisposable/?List
  
 
