@@ -10,9 +10,9 @@ Le paramètre **List** permet d'afficher la liste des domaines bloqués.
  
 
 
-## NbEmail
-Le paramètre **NbEmail** retourne le nombre d'email listé. 
-  https://fslrprojet.ch/EmailDisposable/?NbEmail
+## NbEmails
+Le paramètre **NbEmails** retourne le nombre d'emails listé. 
+  https://fslrprojet.ch/EmailDisposable/?NbEmails
 
 ## Email
 Le paramètre **Email** retourne  si oui ou non (true/false) l'adresse est une adresse jetable.
