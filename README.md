@@ -2,7 +2,7 @@
 Voici une api qui vous permettra de filtrer les adresses jetables.
 # Comment appeler l'api
 Rendez-vous sur https://fslrprojet.ch/EmailDisposable/
-Tous les paramètres passe en **GET**. 
+Tous les paramètres passent en **GET**. 
 # Paramètres 
 ## List 
 Le paramètre **List** permet d'afficher la liste des domaines bloqués.
